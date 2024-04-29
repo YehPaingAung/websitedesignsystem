@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 30px auto;
+  transition: all;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.guide {
+  border: 1px solid black;
+  margin: 40px 0;
+  padding: 50px 100px;
+}
+
+.color .main-box {
+  display: inline-block;
+  margin: 15px 15px;
+  width: 220px;
+  height: 280px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.main-box h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box {
+  width: 220px;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  cursor: pointer;
+}
+
+.top-radius {
+  border-radius: 8px 8px 0 0;
+}
+
+.bottom-radius {
+  border-radius: 0 0 8px 8px;
+}
+
+.hex {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3px 6px;
+  border-top-right-radius: 6px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  visibility: hidden;
+}
+
+.box:hover > .hex {
+  visibility: visible;
+}
+
+.antiquewhite {
+  background-color: antiquewhite;
+}
+
+.purple-skies-1 {
+  background-color: #cac7ff;
+}
+.purple-skies-2 {
+  background-color: #d7cdfe;
+}
+.purple-skies-3 {
+  background-color: #e4d3fc;
+}
+.purple-skies-4 {
+  background-color: #f1dafb;
+}
+
+.yoda-1 {
+  background-color: #f0ead2;
+}
+.yoda-2 {
+  background-color: #dde5b4;
+}
+.yoda-3 {
+  background-color: #adc178;
+}
+.yoda-4 {
+  background-color: #a98467;
+}
+
+.forest-breeze-1 {
+  background-color: #f1ddbf;
+}
+.forest-breeze-2 {
+  background-color: #525e75;
+}
+.forest-breeze-3 {
+  background-color: #78938a;
+}
+.forest-breeze-4 {
+  background-color: #92ba92;
+}
+
+.faded-blue-1 {
+  background-color: #edf2fa;
+}
+.faded-blue-2 {
+  background-color: #d7e3fc;
+}
+.faded-blue-3 {
+  background-color: #ccdbfd;
+}
+.faded-blue-4 {
+  background-color: #c1d3fe;
+}
+
+.celestial-sea-1 {
+  background-color: #809bce;
+}
+.celestial-sea-2 {
+  background-color: #95b8d1;
+}
+.celestial-sea-3 {
+  background-color: #b8e0d4;
+}
+.celestial-sea-4 {
+  background-color: #d6eadf;
+}
+
+.moody-sunset-1 {
+  background-color: #58508d;
+}
+.moody-sunset-2 {
+  background-color: #bc5090;
+}
+.moody-sunset-3 {
+  background-color: #ff6361;
+}
+.moody-sunset-4 {
+  background-color: #ffa600;
+}
+
+.snow-solitude-1 {
+  background-color: #e1e4e8;
+}
+.snow-solitude-2 {
+  background-color: #939ca3;
+}
+.snow-solitude-3 {
+  background-color: #646f77;
+}
+.snow-solitude-4 {
+  background-color: #b5bdc4;
+}
+
+.juneteenth-1 {
+  background-color: #bb382c;
+}
+.juneteenth-2 {
+  background-color: #dcba1d;
+}
+.juneteenth-3 {
+  background-color: #256e35;
+}
+.juneteenth-4 {
+  background-color: #242424;
+}
+
+.font-box {
+  width: 100%;
+  line-height: 30px;
+  background-color: #e7e9eb;
+  padding: 15px;
+  border-radius: 10px;
+  color: #000000;
+}
+
+.font-box:hover {
+  background-color: #939ca3;
+}
+
+.font-box:active {
+  background-color: #646f77;
+}
+
+.font-box h6 {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+.guide hr {
+  margin: 30px 0;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.jersey15 {
+  font-family: "Jersey 15", sans-serif;
+}
+
+.prompt {
+  font-family: "Prompt", sans-serif;
+}
+
+.monserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.reg {
+  font-weight: 400;
+}
+
+.bol {
+  font-weight: 900;
+}
+
+.ita {
+  font-style: italic;
+}
+
+.text-box {
+  display: inline-block;
+  line-height: 2;
+  background-color: #fffafa;
+  padding: 90px 90px;
+  border-radius: 100%;
+  color: #000;
+  box-shadow: 3px 3px #fffafa;
+}
+
+.text-box:hover {
+  background-color: #939ca3;
+}
+
+.text-box:active {
+  background-color: #646f77;
+}
+
+.text-box h1 {
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.text-box h2 {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+}
+.text-box h3 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 600;
+}
+.text-box h4 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+}
+.text-box h5 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.text-box h6 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+}
+.text-box p {
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.one {
+  position: relative;
+  left: 80px;
+}
+.two {
+  position: relative;
+  left: 280px;
+}
+.three {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.four {
+  position: relative;
+  top: 5px;
+  left: 80px;
+}
+.five {
+  position: relative;
+  top: 70px;
+  left: 90px;
+}
+.six {
+  position: relative;
+  top: 40px;
+  left: 180px;
+}
+.seven {
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
